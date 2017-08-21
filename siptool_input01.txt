@@ -1,0 +1,1838 @@
+No.     Time    Source                Destination           Protocol Length Info 
+    119 7.46    192.168.30.177        192.168.30.11         SIP/SDP  1454   Request: INVITE sip:1012@one.ims | 
+
+Frame 119: 1454 bytes on wire (11632 bits), 1454 bytes captured (11632 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.177, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: 52358 (52358), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1012@one.ims SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Content-Type: application/sdp
+        Content-Length: 466
+        Max-Forwards: 70
+        Route: <sip:orig@scscf.one.ims:6060;lr>
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        P-Preferred-Identity: <sip:1013@one.ims>
+        Supported: 100rel
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    120 7.46    192.168.30.11         192.168.30.177        SIP      566    Status: 100 trying -- your call is important to us | 
+
+Frame 120: 566 bytes on wire (4528 bits), 566 bytes captured (4528 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.11:4060 "Noisy feedback tells:  pid=3838 req_src_ip=192.168.30.177 req_src_port=52358 in_uri=sip:1012@one.ims out_uri=sip:1012@one.ims via_cnt==1"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    123 7.46    192.168.30.11         192.168.30.13         SIP/SDP  1679   Request: INVITE sip:1012@one.ims | 
+
+Frame 123: 1679 bytes on wire (13432 bits), 1679 bytes captured (13432 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1012@one.ims SIP/2.0
+    Message Header
+        Record-Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Content-Type: application/sdp
+        Content-Length: 466
+        Max-Forwards: 16
+        Route: <sip:orig@scscf.one.ims:6060;lr>
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        Supported: 100rel
+        P-Asserted-Identity: <sip:1013@one.ims>
+        P-Charging-Vector: icid-value="P-CSCFabcd52d68e2c000000d4";icid-generated-at=127.0.0.1;orig-ioi="one.ims"
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    124 7.46    192.168.30.13         192.168.30.11         SIP      631    Status: 100 trying -- your call is important to us | 
+
+Frame 124: 631 bytes on wire (5048 bits), 631 bytes captured (5048 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.13:6060 "Noisy feedback tells:  pid=3870 req_src_ip=192.168.30.11 req_src_port=4060 in_uri=sip:1012@one.ims out_uri=sip:1012@one.ims via_cnt==2"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    125 7.46    192.168.30.13         192.168.30.13         SIP/SDP  1750   Request: INVITE sip:1012@one.ims | 
+
+Frame 125: 1750 bytes on wire (14000 bits), 1750 bytes captured (14000 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1012@one.ims SIP/2.0
+    Message Header
+        Record-Route: <sip:mo@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Content-Type: application/sdp
+        Content-Length: 466
+        Max-Forwards: 15
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        Supported: 100rel
+        P-Asserted-Identity: <sip:1013@one.ims>
+        P-Charging-Vector: icid-value="P-CSCFabcd52d68e2c000000d4";icid-generated-at=127.0.0.1;orig-ioi="one.ims"
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    126 7.46    192.168.30.13         192.168.30.13         SIP      709    Status: 100 trying -- your call is important to us | 
+
+Frame 126: 709 bytes on wire (5672 bits), 709 bytes captured (5672 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.13:6060 "Noisy feedback tells:  pid=3870 req_src_ip=192.168.30.13 req_src_port=6060 in_uri=sip:1012@one.ims out_uri=sip:1012@192.168.30.187:5060 via_cnt==3"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    129 7.46    192.168.30.13         192.168.30.11         SIP/SDP  1954   Request: INVITE sip:1012@192.168.30.187:5060 | 
+
+Frame 129: 1954 bytes on wire (15632 bits), 1954 bytes captured (15632 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1012@192.168.30.187:5060 SIP/2.0
+    Message Header
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>
+        Route: <sip:term@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mo@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.f2be424.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Content-Type: application/sdp
+        Content-Length: 466
+        Max-Forwards: 14
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        Supported: 100rel
+        P-Asserted-Identity: <sip:1013@one.ims>
+        P-Charging-Vector: icid-value="P-CSCFabcd52d68e2c000000d4";icid-generated-at=127.0.0.1;orig-ioi="one.ims"
+        P-Called-Party-ID: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    130 7.46    192.168.30.11         192.168.30.13         SIP      798    Status: 100 trying -- your call is important to us | 
+
+Frame 130: 798 bytes on wire (6384 bits), 798 bytes captured (6384 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.f2be424.0;rport=6060
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.11:4060 "Noisy feedback tells:  pid=3836 req_src_ip=192.168.30.13 req_src_port=6060 in_uri=sip:1012@192.168.30.187:5060 out_uri=sip:1012@192.168.30.187:5060 via_cnt==4"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    132 7.46    192.168.30.11         192.168.30.187        SIP/SDP  580    Request: INVITE sip:1012@192.168.30.187:5060 | 
+
+Frame 132: 580 bytes on wire (4640 bits), 580 bytes captured (4640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.187
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: sip (5060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1012@192.168.30.187:5060 SIP/2.0
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.44919d64.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bK0c14.f2be424.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Content-Type: application/sdp
+        Content-Length: 466
+        Max-Forwards: 13
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        Supported: 100rel
+        P-Asserted-Identity: <sip:1013@one.ims>
+        P-Charging-Vector: icid-value="P-CSCFabcd52d68e2c000000d4";icid-generated-at=127.0.0.1;orig-ioi="one.ims"
+        P-Called-Party-ID: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    135 7.47    192.168.30.187        192.168.30.11         SIP      814    Status: 100 Trying | 
+
+Frame 135: 814 bytes on wire (6512 bits), 814 bytes captured (6512 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 Trying
+    Message Header
+        To: <sip:1012@one.ims>
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.44919d64.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bK0c14.f2be424.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+
+No.     Time    Source                Destination           Protocol Length Info 
+    136 7.51    192.168.30.187        192.168.30.11         SIP      838    Status: 180 Ringing | 
+
+Frame 136: 838 bytes on wire (6704 bits), 838 bytes captured (6704 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (180)
+    Status-Line: SIP/2.0 180 Ringing
+    Message Header
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.44919d64.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bK0c14.f2be424.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+
+No.     Time    Source                Destination           Protocol Length Info 
+    137 7.51    192.168.30.11         192.168.30.13         SIP      782    Status: 180 Ringing | 
+
+Frame 137: 782 bytes on wire (6256 bits), 782 bytes captured (6256 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (180)
+    Status-Line: SIP/2.0 180 Ringing
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bK0c14.f2be424.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    138 7.51    192.168.30.13         192.168.30.13         SIP      682    Status: 180 Ringing | 
+
+Frame 138: 682 bytes on wire (5456 bits), 682 bytes captured (5456 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (180)
+    Status-Line: SIP/2.0 180 Ringing
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    139 7.51    192.168.30.13         192.168.30.11         SIP      616    Status: 180 Ringing | 
+
+Frame 139: 616 bytes on wire (4928 bits), 616 bytes captured (4928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (180)
+    Status-Line: SIP/2.0 180 Ringing
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    140 7.51    192.168.30.11         192.168.30.177        SIP      549    Status: 180 Ringing | 
+
+Frame 140: 549 bytes on wire (4392 bits), 549 bytes captured (4392 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (180)
+    Status-Line: SIP/2.0 180 Ringing
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    145 8.61    192.168.30.187        192.168.30.11         SIP/SDP  1215   Status: 200 OK | 
+
+Frame 145: 1215 bytes on wire (9720 bits), 1215 bytes captured (9720 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.44919d64.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bK0c14.f2be424.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@scscf.one.ims:6060;lr>
+        Record-Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 212
+        Allow: ACK, BYE, CANCEL, INFO, INVITE, NOTIFY, OPTIONS, REFER
+        Supported: replaces
+        Content-Type: application/sdp
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    146 8.61    192.168.30.11         192.168.30.13         SIP/SDP  1159   Status: 200 OK | 
+
+Frame 146: 1159 bytes on wire (9272 bits), 1159 bytes captured (9272 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bK0c14.f2be424.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 212
+        Allow: ACK, BYE, CANCEL, INFO, INVITE, NOTIFY, OPTIONS, REFER
+        Supported: replaces
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    147 8.61    192.168.30.13         192.168.30.13         SIP/SDP  1059   Status: 200 OK | 
+
+Frame 147: 1059 bytes on wire (8472 bits), 1059 bytes captured (8472 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bK0c14.e2be424.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 212
+        Allow: ACK, BYE, CANCEL, INFO, INVITE, NOTIFY, OPTIONS, REFER
+        Supported: replaces
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    148 8.61    192.168.30.13         192.168.30.11         SIP/SDP  993    Status: 200 OK | 
+
+Frame 148: 993 bytes on wire (7944 bits), 993 bytes captured (7944 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bK0c14.34919d64.0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 212
+        Allow: ACK, BYE, CANCEL, INFO, INVITE, NOTIFY, OPTIONS, REFER
+        Supported: replaces
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    149 8.61    192.168.30.11         192.168.30.177        SIP/SDP  926    Status: 200 OK | 
+
+Frame 149: 926 bytes on wire (7408 bits), 926 bytes captured (7408 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Record-Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Record-Route: <sip:mt@scscf.one.ims:6060;lr>,<sip:mo@scscf.one.ims:6060;lr>,<sip:mo@pcscf.one.ims:4060;lr>
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        From: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 INVITE
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK515815335;rport=52358
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Server: Linksys/SPA942-5.1.15(a)
+        Content-Length: 212
+        Allow: ACK, BYE, CANCEL, INFO, INVITE, NOTIFY, OPTIONS, REFER
+        Supported: replaces
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    154 8.81    192.168.30.177        192.168.30.11         SIP      1038   Request: ACK sip:1012@192.168.30.187:5060 | 
+
+Frame 154: 1038 bytes on wire (8304 bits), 1038 bytes captured (8304 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.177, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: 52358 (52358), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1012@192.168.30.187:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK162543087;rport
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 ACK
+        Content-Length: 0
+        Max-Forwards: 70
+        Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Route: <sip:mo@scscf.one.ims:6060;lr>
+        Route: <sip:mt@scscf.one.ims:6060;lr>
+        Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+
+No.     Time    Source                Destination           Protocol Length Info 
+    155 8.81    192.168.30.11         192.168.30.13         SIP      1092   Request: ACK sip:1012@192.168.30.187:5060 | 
+
+Frame 155: 1092 bytes on wire (8736 bits), 1092 bytes captured (8736 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1012@192.168.30.187:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK162543087;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 ACK
+        Content-Length: 0
+        Max-Forwards: 16
+        Route: <sip:mo@scscf.one.ims:6060;lr>
+        Route: <sip:mt@scscf.one.ims:6060;lr>
+        Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        P-Asserted-Identity: <sip:1013@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    158 8.81    192.168.30.13         192.168.30.13         SIP      1099   Request: ACK sip:1012@192.168.30.187:5060 | 
+
+Frame 158: 1099 bytes on wire (8792 bits), 1099 bytes captured (8792 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1012@192.168.30.187:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK162543087;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 ACK
+        Content-Length: 0
+        Max-Forwards: 15
+        Route: <sip:mt@scscf.one.ims:6060;lr>
+        Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        P-Asserted-Identity: <sip:1013@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    159 8.81    192.168.30.13         192.168.30.11         SIP      1106   Request: ACK sip:1012@192.168.30.187:5060 | 
+
+Frame 159: 1106 bytes on wire (8848 bits), 1106 bytes captured (8848 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1012@192.168.30.187:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK162543087;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 ACK
+        Content-Length: 0
+        Max-Forwards: 14
+        Route: <sip:mt@pcscf.one.ims:4060;lr>
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        P-Asserted-Identity: <sip:1013@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    160 8.81    192.168.30.11         192.168.30.187        SIP      1147   Request: ACK sip:1012@192.168.30.187:5060 | 
+
+Frame 160: 1147 bytes on wire (9176 bits), 1147 bytes captured (9176 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.187
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: sip (5060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1012@192.168.30.187:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.177:52358;branch=z9hG4bK162543087;rport=52358
+        From: <sip:1013@one.ims>;tag=400854292
+        To: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>;+g.oma.sip-im;language="en,fr";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 1524541261 ACK
+        Content-Length: 0
+        Max-Forwards: 13
+        Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+        P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+        Allow: INVITE, ACK, CANCEL, BYE, MESSAGE, OPTIONS, NOTIFY, PRACK, UPDATE, REFER
+        Privacy: none
+        P-Access-Network-Info: ADSL;utran-cell-id-3gpp=00000000
+        User-Agent: IM-client/OMA1.0 android-ngn-stack/v2.548.870 (doubango r870 - DROID RAZR HD)
+        P-Asserted-Identity: <sip:1013@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    175 11.05   192.168.30.187        192.168.30.11         SIP/SDP  858    Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 175: 858 bytes on wire (6864 bits), 858 bytes captured (6864 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.187:5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Max-Forwards: 70
+        Route: <sip:mt@pcscf.one.ims:4060;lr>, <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 229
+        Content-Type: application/sdp
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    176 11.06   192.168.30.11         192.168.30.187        SIP      633    Status: 100 trying -- your call is important to us | 
+
+Frame 176: 633 bytes on wire (5064 bits), 633 bytes captured (5064 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.187
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: sip (5060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.187:5060;branch=z9hG4bK-9074eadd;rport=5060
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.11:4060 "Noisy feedback tells:  pid=3836 req_src_ip=192.168.30.187 req_src_port=5060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==1"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    177 11.06   192.168.30.11         192.168.30.13         SIP/SDP  945    Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 177: 945 bytes on wire (7560 bits), 945 bytes captured (7560 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Max-Forwards: 16
+        Route: <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 229
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    178 11.06   192.168.30.13         192.168.30.11         SIP      699    Status: 100 trying -- your call is important to us | 
+
+Frame 178: 699 bytes on wire (5592 bits), 699 bytes captured (5592 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.13:6060 "Noisy feedback tells:  pid=3871 req_src_ip=192.168.30.11 req_src_port=4060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==2"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    179 11.06   192.168.30.13         192.168.30.13         SIP/SDP  980    Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 179: 980 bytes on wire (7840 bits), 980 bytes captured (7840 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Max-Forwards: 15
+        Route: <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 229
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    180 11.06   192.168.30.13         192.168.30.13         SIP      766    Status: 100 trying -- your call is important to us | 
+
+Frame 180: 766 bytes on wire (6128 bits), 766 bytes captured (6128 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.13:6060 "Noisy feedback tells:  pid=3871 req_src_ip=192.168.30.13 req_src_port=6060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==3"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    181 11.06   192.168.30.13         192.168.30.11         SIP/SDP  1015   Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 181: 1015 bytes on wire (8120 bits), 1015 bytes captured (8120 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.8a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Max-Forwards: 14
+        Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 229
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    182 11.06   192.168.30.11         192.168.30.13         SIP      844    Status: 100 trying -- your call is important to us | 
+
+Frame 182: 844 bytes on wire (6752 bits), 844 bytes captured (6752 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.8a0c1e25.0;rport=6060
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.11:4060 "Noisy feedback tells:  pid=3835 req_src_ip=192.168.30.13 req_src_port=6060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==4"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    183 11.06   192.168.30.11         192.168.30.177        SIP/SDP  1077   Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 183: 1077 bytes on wire (8616 bits), 1077 bytes captured (8616 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.3c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bKe393.8a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Max-Forwards: 13
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 229
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    184 11.06   192.168.30.177        192.168.30.11         SIP      646    Status: 100 Trying (sent from the Transaction Layer) | 
+
+Frame 184: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.177, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: 52358 (52358), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 Trying (sent from the Transaction Layer)
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.3c8e8d61.0
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Content-Length: 0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKe393.8a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+
+No.     Time    Source                Destination           Protocol Length Info 
+    189 11.30   192.168.30.177        192.168.30.11         SIP/SDP  1199   Status: 200 OK | 
+
+Frame 189: 1199 bytes on wire (9592 bits), 1199 bytes captured (9592 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.177, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: 52358 (52358), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.3c8e8d61.0
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKe393.8a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    190 11.30   192.168.30.11         192.168.30.13         SIP/SDP  1132   Status: 200 OK | 
+
+Frame 190: 1132 bytes on wire (9056 bits), 1132 bytes captured (9056 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKe393.8a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    191 11.30   192.168.30.13         192.168.30.13         SIP/SDP  1031   Status: 200 OK | 
+
+Frame 191: 1031 bytes on wire (8248 bits), 1031 bytes captured (8248 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKe393.7a0c1e25.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    192 11.30   192.168.30.13         192.168.30.11         SIP/SDP  964    Status: 200 OK | 
+
+Frame 192: 964 bytes on wire (7712 bits), 964 bytes captured (7712 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKe393.2c8e8d61.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    193 11.30   192.168.30.11         192.168.30.187        SIP/SDP  897    Status: 200 OK | 
+
+Frame 193: 897 bytes on wire (7176 bits), 897 bytes captured (7176 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.187
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: sip (5060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-9074eadd
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    194 11.31   192.168.30.187        192.168.30.11         SIP      577    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 194: 577 bytes on wire (4616 bits), 577 bytes captured (4616 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.187:5060;branch=z9hG4bK-220a6966
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 ACK
+        Max-Forwards: 70
+        Route: <sip:mt@pcscf.one.ims:4060;lr>, <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+
+No.     Time    Source                Destination           Protocol Length Info 
+    195 11.31   192.168.30.11         192.168.30.13         SIP      643    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 195: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-220a6966
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 ACK
+        Max-Forwards: 16
+        Route: <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    196 11.31   192.168.30.13         192.168.30.13         SIP      657    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 196: 657 bytes on wire (5256 bits), 657 bytes captured (5256 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-220a6966
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 ACK
+        Max-Forwards: 15
+        Route: <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    197 11.31   192.168.30.13         192.168.30.11         SIP      671    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 197: 671 bytes on wire (5368 bits), 671 bytes captured (5368 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-220a6966
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 ACK
+        Max-Forwards: 14
+        Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    198 11.31   192.168.30.11         192.168.30.177        SIP      712    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 198: 712 bytes on wire (5696 bits), 712 bytes captured (5696 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-220a6966
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 101 ACK
+        Max-Forwards: 13
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    215 13.92   192.168.30.187        192.168.30.11         SIP/SDP  865    Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 215: 865 bytes on wire (6920 bits), 865 bytes captured (6920 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.187:5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Max-Forwards: 70
+        Route: <sip:mt@pcscf.one.ims:4060;lr>, <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 236
+        Content-Type: application/sdp
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    216 13.92   192.168.30.11         192.168.30.187        SIP      633    Status: 100 trying -- your call is important to us | 
+
+Frame 216: 633 bytes on wire (5064 bits), 633 bytes captured (5064 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.187
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: sip (5060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.187:5060;branch=z9hG4bK-21175575;rport=5060
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.11:4060 "Noisy feedback tells:  pid=3836 req_src_ip=192.168.30.187 req_src_port=5060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==1"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    217 13.92   192.168.30.11         192.168.30.13         SIP/SDP  952    Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 217: 952 bytes on wire (7616 bits), 952 bytes captured (7616 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Max-Forwards: 16
+        Route: <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 236
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    219 13.92   192.168.30.13         192.168.30.11         SIP      699    Status: 100 trying -- your call is important to us | 
+
+Frame 219: 699 bytes on wire (5592 bits), 699 bytes captured (5592 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.13:6060 "Noisy feedback tells:  pid=3871 req_src_ip=192.168.30.11 req_src_port=4060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==2"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    220 13.92   192.168.30.13         192.168.30.13         SIP/SDP  987    Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 220: 987 bytes on wire (7896 bits), 987 bytes captured (7896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Max-Forwards: 15
+        Route: <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 236
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    221 13.92   192.168.30.13         192.168.30.13         SIP      766    Status: 100 trying -- your call is important to us | 
+
+Frame 221: 766 bytes on wire (6128 bits), 766 bytes captured (6128 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.13:6060 "Noisy feedback tells:  pid=3871 req_src_ip=192.168.30.13 req_src_port=6060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==3"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    222 13.92   192.168.30.13         192.168.30.11         SIP/SDP  1022   Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 222: 1022 bytes on wire (8176 bits), 1022 bytes captured (8176 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.2f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Max-Forwards: 14
+        Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 236
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    223 13.92   192.168.30.11         192.168.30.13         SIP      844    Status: 100 trying -- your call is important to us | 
+
+Frame 223: 844 bytes on wire (6752 bits), 844 bytes captured (6752 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 trying -- your call is important to us
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.2f1990f7.0;rport=6060
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Server: Sip EXpress router (2.1.0-dev1 OpenIMSCore (i386/linux))
+        Content-Length: 0
+        Warning: 392 192.168.30.11:4060 "Noisy feedback tells:  pid=3835 req_src_ip=192.168.30.13 req_src_port=6060 in_uri=sip:1013@192.168.30.177:52358;transport=udp out_uri=sip:1013@192.168.30.177:52358;transport=udp via_cnt==4"
+
+No.     Time    Source                Destination           Protocol Length Info 
+    224 13.92   192.168.30.11         192.168.30.177        SIP/SDP  1084   Request: INVITE sip:1013@192.168.30.177:52358;transport=udp, in-dialog | 
+
+Frame 224: 1084 bytes on wire (8672 bits), 1084 bytes captured (8672 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.58332324.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bKb393.2f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Max-Forwards: 13
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        Expires: 30
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 236
+        Content-Type: application/sdp
+        P-Asserted-Identity: <sip:1012@one.ims>
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    225 13.93   192.168.30.177        192.168.30.11         SIP      646    Status: 100 Trying (sent from the Transaction Layer) | 
+
+Frame 225: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.177, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: 52358 (52358), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 Trying (sent from the Transaction Layer)
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.58332324.0
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Content-Length: 0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKb393.2f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+
+No.     Time    Source                Destination           Protocol Length Info 
+    229 14.12   192.168.30.177        192.168.30.11         SIP/SDP  1199   Status: 200 OK | 
+
+Frame 229: 1199 bytes on wire (9592 bits), 1199 bytes captured (9592 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.177, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: 52358 (52358), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.58332324.0
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKb393.2f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    230 14.12   192.168.30.11         192.168.30.13         SIP/SDP  1132   Status: 200 OK | 
+
+Frame 230: 1132 bytes on wire (9056 bits), 1132 bytes captured (9056 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKb393.2f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    231 14.12   192.168.30.13         192.168.30.13         SIP/SDP  1031   Status: 200 OK | 
+
+Frame 231: 1031 bytes on wire (8248 bits), 1031 bytes captured (8248 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKb393.1f1990f7.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    232 14.12   192.168.30.13         192.168.30.11         SIP/SDP  964    Status: 200 OK | 
+
+Frame 232: 964 bytes on wire (7712 bits), 964 bytes captured (7712 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKb393.48332324.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    233 14.12   192.168.30.11         192.168.30.187        SIP/SDP  897    Status: 200 OK | 
+
+Frame 233: 897 bytes on wire (7176 bits), 897 bytes captured (7176 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.187
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: sip (5060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 INVITE
+        Content-Type: application/sdp
+        Content-Length: 421
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-21175575
+        Allow: ACK, BYE, CANCEL, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, REFER, UPDATE
+    Message Body
+
+No.     Time    Source                Destination           Protocol Length Info 
+    234 14.13   192.168.30.187        192.168.30.11         SIP      577    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 234: 577 bytes on wire (4616 bits), 577 bytes captured (4616 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.187:5060;branch=z9hG4bK-349d40c8
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 ACK
+        Max-Forwards: 70
+        Route: <sip:mt@pcscf.one.ims:4060;lr>, <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+
+No.     Time    Source                Destination           Protocol Length Info 
+    235 14.13   192.168.30.11         192.168.30.13         SIP      643    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 235: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-349d40c8
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 ACK
+        Max-Forwards: 16
+        Route: <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    236 14.13   192.168.30.13         192.168.30.13         SIP      657    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 236: 657 bytes on wire (5256 bits), 657 bytes captured (5256 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-349d40c8
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 ACK
+        Max-Forwards: 15
+        Route: <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    237 14.13   192.168.30.13         192.168.30.11         SIP      671    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 237: 671 bytes on wire (5368 bits), 671 bytes captured (5368 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-349d40c8
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 ACK
+        Max-Forwards: 14
+        Route: <sip:mo@pcscf.one.ims:4060;lr>
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    238 14.13   192.168.30.11         192.168.30.177        SIP      712    Request: ACK sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 238: 712 bytes on wire (5696 bits), 712 bytes captured (5696 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-349d40c8
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 102 ACK
+        Max-Forwards: 13
+        Contact: "Bob_CandC" <sip:1012@192.168.30.187:5060>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    249 16.55   192.168.30.187        192.168.30.11         SIP      524    Request: BYE sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 249: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.187, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: sip (5060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.187:5060;branch=z9hG4bK-63fa9683
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Max-Forwards: 70
+        Route: <sip:mt@pcscf.one.ims:4060;lr>, <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+
+No.     Time    Source                Destination           Protocol Length Info 
+    250 16.55   192.168.30.11         192.168.30.13         SIP      611    Request: BYE sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 250: 611 bytes on wire (4888 bits), 611 bytes captured (4888 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Max-Forwards: 16
+        Route: <sip:mt@scscf.one.ims:6060;lr>, <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    251 16.55   192.168.30.13         192.168.30.13         SIP      646    Request: BYE sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 251: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKc393.fde129f3.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Max-Forwards: 15
+        Route: <sip:mo@scscf.one.ims:6060;lr>, <sip:mo@pcscf.one.ims:4060;lr>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    252 16.55   192.168.30.13         192.168.30.11         SIP      681    Request: BYE sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 252: 681 bytes on wire (5448 bits), 681 bytes captured (5448 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKc393.0ee129f3.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKc393.fde129f3.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Max-Forwards: 14
+        Route: <sip:mo@pcscf.one.ims:4060;lr>
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    253 16.55   192.168.30.11         192.168.30.177        SIP      743    Request: BYE sip:1013@192.168.30.177:52358;transport=udp | 
+
+Frame 253: 743 bytes on wire (5944 bits), 743 bytes captured (5944 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.177
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: 52358 (52358)
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:1013@192.168.30.177:52358;transport=udp SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.00804987.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;received=192.168.30.13;rport=6060;branch=z9hG4bKc393.0ee129f3.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKc393.fde129f3.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Max-Forwards: 13
+        User-Agent: Linksys/SPA942-5.1.15(a)
+        Content-Length: 0
+        P-Asserted-Identity: <sip:1012@one.ims>
+
+No.     Time    Source                Destination           Protocol Length Info 
+    254 16.56   192.168.30.177        192.168.30.11         SIP      661    Status: 200 OK | 
+
+Frame 254: 661 bytes on wire (5288 bits), 661 bytes captured (5288 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.177, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: 52358 (52358), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.00804987.0
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Content-Length: 0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKc393.0ee129f3.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKc393.fde129f3.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+
+No.     Time    Source                Destination           Protocol Length Info 
+    255 16.56   192.168.30.11         192.168.30.13         SIP      594    Status: 200 OK | 
+
+Frame 255: 594 bytes on wire (4752 bits), 594 bytes captured (4752 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Content-Length: 0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;rport=6060;received=192.168.30.13;branch=z9hG4bKc393.0ee129f3.0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKc393.fde129f3.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+
+No.     Time    Source                Destination           Protocol Length Info 
+    256 16.56   192.168.30.13         192.168.30.13         SIP      493    Status: 200 OK | 
+
+Frame 256: 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.13
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: x11 (6060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Content-Length: 0
+        Via: SIP/2.0/UDP 192.168.30.13:6060;branch=z9hG4bKc393.fde129f3.0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+
+No.     Time    Source                Destination           Protocol Length Info 
+    257 16.56   192.168.30.13         192.168.30.11         SIP      426    Status: 200 OK | 
+
+Frame 257: 426 bytes on wire (3408 bits), 426 bytes captured (3408 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.13, Dst: 192.168.30.11
+User Datagram Protocol, Src Port: x11 (6060), Dst Port: dsmeter_iatc (4060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Content-Length: 0
+        Via: SIP/2.0/UDP 192.168.30.11:4060;branch=z9hG4bKc393.ff704987.0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
+
+No.     Time    Source                Destination           Protocol Length Info 
+    258 16.56   192.168.30.11         192.168.30.187        SIP      359    Status: 200 OK | 
+
+Frame 258: 359 bytes on wire (2872 bits), 359 bytes captured (2872 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 192.168.30.11, Dst: 192.168.30.187
+User Datagram Protocol, Src Port: dsmeter_iatc (4060), Dst Port: sip (5060)
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        From: <sip:1012@one.ims>;tag=f76830f36bfee8cai0
+        To: <sip:1013@one.ims>;tag=400854292
+        Contact: <sip:1013@192.168.30.177:52358;transport=udp>
+        Call-ID: 27b2545d-2b8e-e353-7207-9a6b8513be5c
+        CSeq: 103 BYE
+        Content-Length: 0
+        Via: SIP/2.0/UDP 192.168.30.187:5060;rport=5060;branch=z9hG4bK-63fa9683
