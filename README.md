@@ -14,8 +14,8 @@ A tool written for Python 3.x that traces SIP messages exported to text from Wir
 
     - SIP messages are always 1 of 2 types: requests or response
     - Requests are always ALL CAPS English words. The SIP requets are:
-      - ACK, BYE, CANCEL, INFO, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, PUBLISH, REFER, REGISTER, SUBSCRIBE, UPDATE
-    - Respones are always numbers 100 to 699.
+      - **ACK**, **BYE**, **CANCEL**, **INFO**, **INVITE**, **MESSAGE**, **NOTIFY**, **OPTIONS**, **PRACK**, **PUBLISH**, **REFER**, **REGISTER**, **SUBSCRIBE**, **UPDATE**
+    - Respones are always numbers **100** to **699**.
     - Both SIP requests and responses are indentified in the first line of the SIP message. Look over our trace file, or ask the instructor to explain the characteristics of requests and responses if it is not clear.
     - Write code that identifies the number of requests in the trace
     - Write code that identifies the number of respones in the trace
