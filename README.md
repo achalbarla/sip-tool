@@ -24,5 +24,5 @@ A tool written for Python 3.x that traces SIP messages exported to text from Wir
 
 
 **Contributing Authors:**
-    - Russell Zachary Feeser - Alta3 Research
-       - Project Organizer
+Russell Zachary Feeser - Alta3 Research
+    - Project Organizer
