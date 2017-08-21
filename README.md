@@ -1,7 +1,7 @@
 ## sip-tool
 A tool written for Python 3.x that traces SIP messages exported to text from Wireshark *.pcap files.
 
-#Current Objectives
+# Current Objectives
 
 0. Call-ID to ASCII Art
 
@@ -22,6 +22,6 @@ A tool written for Python 3.x that traces SIP messages exported to text from Wir
     - Write code that sorts the types of requests in the trace
     - Write code that sorts the types of responses in the trace
 
-#Contributing Authors
+# Contributing Authors
 Russell Zachary Feeser - Alta3 Research
     - Project Organizer
