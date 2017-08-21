@@ -1,5 +1,5 @@
 ## sip-tool
-A tool written for Python 3.x that traces SIP messages exported to text from Wireshark *.pcap files.
+A tool written for Python 3.x that traces SIP messages exported to text from Wireshark \*.pcap files. This project is being designed for use within production traces from IP Multimedia Subsystems (IMS), but can be used within any SIP based system. 
 
 ### Current Objectives
 
