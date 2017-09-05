@@ -9,6 +9,7 @@ A tool written for Python 3.x that traces SIP messages exported to text from Wir
     - Now see if you can make you program display each unique **Call-ID** to the screen.
     - Each message goes 'from' one IP address, 'to' another IP address. Using the **Call-ID** as a key, nest a list inside of the corresponding value that tracks the IP hops this SIP message makes.
     - Let's try displaying some ASCII art. Parse the unique IP addresses inside of the nested list, and display them at the top of the screen. Next, try making some type of ASCII lines/stars visually indicate the 'hops' these messages are taking. 
+    Here is a graphics tool that may be useful: http://www.graphviz.org/content/cluster
 
 0. Parse for Requests or Responses
 
